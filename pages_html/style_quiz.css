@@ -1,0 +1,161 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+  
+  
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: pink;
+
+
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(218, 106, 143);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-family: "Times New Roman", serif;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: palevioletred;
+}
+main{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" ,sans-serif;
+    background-color: rgb(239, 193, 208);
+    background-image:
+         radial-gradient(pink, white);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   overflow: hidden;
+  }
+.quiz-container{
+   background-color: rgb(238, 214, 218); 
+   border-radius: 10px;
+   box-shadow: 0 0 10px 2px rgb(217, 134, 161);
+   width: 600px;
+   overflow: hidden;
+}
+.quiz-header{
+    padding: 4rem;
+}
+h2{
+    padding: 1rem ;
+    text-align: center;
+    margin:0 ;
+}
+.ul{
+    list-style-type: none;
+    padding: 0;
+    }
+ .ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+ }  
+ ul li label{
+    cursor: pointer;
+ } 
+ button{
+   background-color:palevioletred; 
+   color: aliceblue;
+   display: block;
+   border: none;
+   width: 100%;
+   cursor: pointer;
+   font-size: 1.1rem;
+   font-family: inherit;
+   padding: 1.3rem;
+ }
+ button:hover{
+    background-color:  rgb(192, 151, 164);
+ }
+ button:focus{
+    outline: none;
+    background-color:green ;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #333;
+    padding: 10px 20px; /* Reduced padding for better spacing */
+    text-align: center;
+    font-family: "Times New Roman", serif;
+   
+}
+
+footer .icon-container {
+    margin: 10px 0;
+}
+
+
+footer .icon-container a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 10px; /* Adjust this value to change icon size (default is 1em) */
+}
+
+footer .icon-container a:hover {
+    
+    color: #9a1c669a;
+    transform: scale(1.2); /* Slight zoom effect when hovered */
+}
+
+footer .icon-container i {
+    font-size: 2.5em; /* Increase icon size */
+    transition: color 0.3s, transform 0.3s;
+}

@@ -1,0 +1,244 @@
+/* Global Styles */
+*{
+    margin: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+  
+  
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: pink;
+
+
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(218, 106, 143);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-family: "Times New Roman", serif;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: palevioletred;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    width: 1000px;
+    font-style: normal;
+    background-image:
+         radial-gradient(pink, white);
+    margin: auto; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+/* Styles généraux du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Style des cellules (th et td) */
+th, td {
+    border: 1px solid rgb(232, 203, 208);
+    padding: 8px;
+}
+
+/* Style des en-têtes */
+th {
+    background-color: rgb(232, 203, 208);
+    font-weight: bold;
+}
+
+/* Couleur alternée pour les lignes paires */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Effet survol pour les lignes */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+#image2{
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/se.jpg');
+    background-size: cover; 
+    height: 100px;
+    width: 100px;
+   
+}
+#image1{
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/python.jpg');
+    background-size: cover; 
+    height: 100px;
+    width: 150px;
+   
+}
+#image{
+    margin: 0;
+    padding: 18px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/fleur1.jpg');
+    background-size: cover; 
+    height: 100px;
+   
+}
+#image3{
+    margin: 0;
+    padding: 18px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/sl.jpg');
+    background-size: cover; 
+    height: 100px;
+   
+}
+#image4{
+    margin: 0;
+    padding: 18px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/transi.jpg');
+    background-size: cover; 
+    height: 100px;
+   
+}
+#image5{
+    margin: 0;
+    padding: 18px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/bd.jpg');
+    background-size: cover; 
+    height: 100px;
+   
+}
+#image6{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/c.jpg');
+    background-size: cover; 
+    height: 150px;
+   
+}
+#image7{
+    margin: 0;
+    padding: 18px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../image/math.jpg');
+    background-size: cover; 
+    height: 150px;
+    
+   
+}
+  
+p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    color: #333;
+    padding: 10px 20px; /* Reduced padding for better spacing */
+    text-align: center;
+    font-family: "Times New Roman", serif;
+   
+}
+
+footer .icon-container {
+    margin: 10px 0;
+}
+
+
+footer .icon-container a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 10px; /* Adjust this value to change icon size (default is 1em) */
+}
+
+footer .icon-container a:hover {
+    
+    color: #9a1c669a;
+    transform: scale(1.2); /* Slight zoom effect when hovered */
+}
+
+footer .icon-container i {
+    font-size: 2.5em; /* Increase icon size */
+    transition: color 0.3s, transform 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('./image/th.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(218, 106, 143);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-family: "Times New Roman", serif;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: palevioletred;
+}
+
+
+/* Profile Section */
+.connaitre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connaitre img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #ffffff61;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.profile-text {
+    color: rgb(218, 106, 143);
+    font-size: 1.2em;
+    font-weight: 400px;
+}
+.bien {
+    color: #333;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size:3em ; /* Augmentez la taille de la police ici */
+}
+
+.profile-text h2 {
+    
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.profile-text p {
+    font-size: 1em;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+
+/* Footer */
+footer {
+    color: #333;
+    padding: 10px 20px; /* Reduced padding for better spacing */
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+footer .icon-container {
+    margin: 10px 0;
+}
+
+
+footer .icon-container a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 10px; /* Adjust this value to change icon size (default is 1em) */
+}
+
+footer .icon-container a:hover {
+    
+    color: #9a1c669a;
+    transform: scale(1.2); /* Slight zoom effect when hovered */
+}
+
+footer .icon-container i {
+    font-size: 2.5em; /* Increase icon size */
+    transition: color 0.3s, transform 0.3s;
+}
+

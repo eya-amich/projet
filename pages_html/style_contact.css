@@ -1,0 +1,203 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: pink;
+
+
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(218, 106, 143);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-family: "Times New Roman", serif;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: palevioletred;
+}
+main{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" ,sans-serif;
+    background-color: rgb(239, 193, 208);
+    background-image:
+         radial-gradient(pink, white);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   overflow: hidden;
+  }
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    }
+  .container form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px 2px rgb(217, 134, 161);
+    border-radius: 15px; 
+    background: rgb(236, 177, 197);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+  }  
+ .container form h1{
+    color: #fff ;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+ }
+ .container form input{
+    width: 290px;
+    height: 40px;
+    padding-left:10px ;
+    outline: none ;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.container form::placeholder{
+   color: #ddd;
+}
+.container form #nom,
+.container form #mobile{
+    margin-left: 20px;
+}
+.container form h4{
+    color: #fff;
+    font-weight:300 ;
+    width: 600px;
+    margin-top: 20px;
+}
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    max-height: 80px;
+    min-height: 80px;
+
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgb(218, 106, 143);
+}
+.container form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.container form #button:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #333;
+    padding: 10px 20px; /* Reduced padding for better spacing */
+    text-align: center;
+    font-family: "Times New Roman", serif;
+   
+}
+
+footer .icon-container {
+    margin: 10px 0;
+}
+
+
+footer .icon-container a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 10px; /* Adjust this value to change icon size (default is 1em) */
+}
+
+footer .icon-container a:hover {
+    
+    color: #9a1c669a;
+    transform: scale(1.2); /* Slight zoom effect when hovered */
+}
+
+footer .icon-container i {
+    font-size: 2.5em; /* Increase icon size */
+    transition: color 0.3s, transform 0.3s;
+}

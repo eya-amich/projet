@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_contact.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <title>Contact</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "fIje_pXFxfGAvpS88",
+      });
+    })();
+  </script>
+  <script src="script_contact.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Portfolio</div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+
+        <li><a href="matiere.html">Matières</a></li>
+
+        <li><a href="quiz.html">Quizz</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="avis.html">Avis</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <form id="contactForm">
+        <h1>Contactez-nous</h1>
+        <input type="text" id="prénom" placeholder="Prénom" name="Prénom" required>
+        <input type="text" id="nom" placeholder="Nom" name="Nom" required>
+        <input type="email" id="email" placeholder="Email" name="Email" required>
+        <input type="text" id="mobile" placeholder="Mobile" name="Mobile">
+        <h4> Tapez votre message ici ...</h4>
+        <textarea id="message" name="Message" placeholder="Votre message ici" required></textarea>
+        <button type="button" onclick="sendMail()" id="button">Envoyer</button>
+      </form>
+    </div>
+  </main>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="icon-container" id="social-media">
+      <a href="https://www.facebook.com/eya.amich/" target="_blank">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/eya_amich/" target="_blank">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://wa.me/93194269" target="_blank">
+        <i class="fab fa-whatsapp"></i> <!-- Icône WhatsApp -->
+      </a>
+      <a href="mailto:amich.eya25@gmail.com" id="email-icon">
+        <i class="fas fa-envelope"></i> <!-- Icône Email -->
+      </a>
+    </div>
+    <p>Route Manzel Cheker, km 4.5</p>
+  </footer>
+
+
+</body>
+
+</html>

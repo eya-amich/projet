@@ -1,0 +1,301 @@
+/* Global Styles */
+*{
+    margin: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+  
+  
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: pink;
+
+
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(218, 106, 143);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-family: "Times New Roman", serif;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: palevioletred;
+}
+
+#accueillir{
+    margin: 10px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(230, 125, 143);
+}
+#cv{
+margin: 10px;
+padding-left: 10px;
+font-size: 20px;
+}
+#poste{
+color:rgb(230, 125, 143);
+font-weight: bold;
+}
+.matieres{
+    font-weight: bold;
+    padding-left: 100px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    width: 1000px;
+    font-style: normal;
+    background-image:
+         radial-gradient(pink, white);
+    margin: auto; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+
+  
+  .education {
+    max-width: 600px;
+    margin: 0 auto;
+    
+  }
+  
+  .education h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(152, 45, 63);
+    padding-bottom: 5px;
+    color: rgb(152, 45, 63);
+    font-style: italic;
+  }
+  
+  .education ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .education li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .education .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #000;
+  }
+  
+  .education .details {
+    font-size: 16px;
+  }
+  
+  .education .details strong {
+    font-weight: bold;
+  }
+  #interesser h2 {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(152, 45, 63);
+    padding-bottom: 5px;
+    color: rgb(152, 45, 63);
+    font-style: italic;
+    }
+    .intere{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto;
+   }
+   #integration h2{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(152, 45, 63);
+    padding-bottom: 5px;
+    color: rgb(152, 45, 63);
+    font-style: italic;
+   }
+   .formation{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto;
+   }
+   #local{
+    font-size: 13px;
+    margin-left: 250px;
+   margin-top: auto;
+   }
+   #communication h2{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(152, 45, 63);
+    padding-bottom: 5px;
+    color: rgb(152, 45, 63);
+    font-style: italic;
+   }
+   .formation1{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto;
+   }
+   #cleub{
+    font-size: 15px;
+    margin-left: 225px;
+   margin-top: auto;
+   
+   }
+   #language h2{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(152, 45, 63);
+    padding-bottom: 5px;
+    color: rgb(152, 45, 63);
+    font-style: italic;
+   }
+   .lang{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto;
+   }
+   #passion h2{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(152, 45, 63);
+    padding-bottom: 5px;
+    color: rgb(152, 45, 63);
+    font-style: italic;
+   } 
+   .pass{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto;
+   }
+
+   
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    color: #333;
+    padding: 10px 20px; /* Reduced padding for better spacing */
+    text-align: center;
+    font-family: "Times New Roman", serif;
+   
+}
+
+footer .icon-container {
+    margin: 10px 0;
+}
+
+
+footer .icon-container a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 10px; /* Adjust this value to change icon size (default is 1em) */
+}
+
+footer .icon-container a:hover {
+    
+    color: #9a1c669a;
+    transform: scale(1.2); /* Slight zoom effect when hovered */
+}
+
+footer .icon-container i {
+    font-size: 2.5em; /* Increase icon size */
+    transition: color 0.3s, transform 0.3s;
+}
